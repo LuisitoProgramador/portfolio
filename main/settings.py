@@ -40,8 +40,7 @@ INSTALLED_APPS = [
     #Agregamos nuestras apps para que django las reconozca
     'blog',
     'portfolio',
-    'password_generator',
-    'crud',
+    
     
 ]
 
