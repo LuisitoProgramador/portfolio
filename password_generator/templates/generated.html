@@ -1,0 +1,14 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+
+{% load static %}
+
+<div class="col-md-4 offset-md-4">
+    <div class="card card-body bg-dark text-center text-ligth">
+        <p class="fs-4">{{password}}</p>
+        <a href="{% url 'generator' %}" class="text-primary">Go to Home</a>
+    </div>
+</div>
+
+{% endblock %}

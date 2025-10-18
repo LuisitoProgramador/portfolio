@@ -1,0 +1,40 @@
+{% extends 'layout_crud.html' %}
+
+{% block content %}
+<main class="container py-5">
+    <section class="card card-body">
+        <h1 class="display-1 text-center">Django CRUD</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis
+            amet,
+            minima assumenda modi accusantium, repellendus natus delectus quo
+            voluptatem
+            iure inventore libero saepe! Quo, amet dicta ipsa quis placeat
+            repellendus
+            quas at, minima ullam quod ea, eum blanditiis ducimus sapiente
+            deserunt
+            error sequi nobis temporibus? Vitae similique alias deleniti
+            obcaecati
+            quod
+            ipsum, dolorem quasi ea quibusdam, corrupti molestiae. Commodi
+            corrupti
+            repellendus eaque voluptate consequatur ex, sint obcaecati
+            molestias,
+            sapiente sequi iusto, dolor itaque magni architecto possimus dolorem
+            error
+            quibusdam nulla. Tenetur aspernatur perspiciatis adipisci. Deserunt
+            sapiente
+            vel in rerum quas quod facilis assumenda, nostrum, adipisci dolorem
+            ipsa
+            quae natus omnis.</p>
+        <div class="text-center">
+            <a class="btn btn-secondary" href="{% url 'signin_crud' %}">
+                Signin
+            </a>
+            <a class="btn btn-dark" href="{% url 'signup_crud' %}">
+                Singup
+            </a>
+        </div>
+
+    </section>
+</main>
+{% endblock %}
